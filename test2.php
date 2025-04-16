@@ -91,13 +91,13 @@ $result = mysqli_query($connect, $sql);
     <div class="topbar">
         <div class="webname">
             <nav>
-                <a href="index.php"><img src="images/degicon.png" alt="Logo"></a>
+                <a href="index.php"><img src="images/logo.png" alt="Logo"></a>
                 <h2>DEGRAVERY</h2>
             </nav>
         </div>
         <nav class="main-nav">
         <ul>
-            <li><a href="index.php"> HOME ‎<i class="fas fa-home"></i></a></li>
+            <li><a href="index.html"> HOME ‎<i class="fas fa-home"></i></a></li>
         </ul>
         <ul><li><a href="about.php"> ABOUT ‎<i class="fas fa-info-circle"></i></a></li></ul>
         <div class="dropdown">
