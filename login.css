@@ -1,0 +1,135 @@
+body{
+   margin: 0;
+   padding: 0;
+   background-image: url("images/UMak-Campus-Drone-01-1500x630.jpg");
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   height: 100vh;
+   overflow: hidden;
+   align-content: center;
+   justify-content: center;
+}
+/*.background{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("images/UMak-Campus-Drone-01-1500x630.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}*/
+button:hover{
+    cursor: pointer;;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 0 0 10px black inset;
+}
+a:hover{
+    text-decoration: underline;
+}
+input::placeholder{
+    transition: 0.35s ease;
+}
+input:focus{
+    outline: none;
+    background-color: lightcyan;
+    border-width: 3px;
+    border-color: gold;
+}
+input:focus::placeholder{
+    color:transparent;
+}
+input:hover{
+    border-width: 3px;
+    border-color: gold;
+}
+input:hover::placeholder{
+    background-color: lightcyan;
+}
+img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+.imgpos{
+    top: 10px;
+    left: 10px;
+    position: absolute;
+}
+.logindeco{
+    display: flex;
+    position: absolute;
+    background-color: gold;
+    width: 480px;
+    height: 150px;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    z-index: 100;
+    position: relative;
+    background-color:#0d2364;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(13, 35, 100);
+    border-width: 4px;
+    box-shadow: 0 0 15px black;
+    width: 480px;
+    top:50%;
+    left: 695px;
+    height: 500px;
+    text-align: center;
+}
+.gridcontain{
+    display:grid;
+    margin-left: 75px;
+    width: 350px;
+}
+.navbpos{
+    position: absolute;
+    top: 405px;
+    left: 140px;
+}
+.buttonpos{
+    position: absolute;
+    top: 325px;
+    left: 2.5px;
+}
+.seperater1{
+    position: absolute;
+    background-color: gold;
+    width: 470px;
+    height: 2px;
+    top: 390px;
+    left: 5px;
+}
+.ubox{
+    position: absolute;
+    width: 250px;
+    left: 120px;
+    top: 155px;
+}
+.pbox{
+    position: absolute;
+    width: 250px;
+    left: 120px;
+    top: 220px;
+}
+.errorpos{
+    display: block;
+    position: absolute;
+    text-align: center;
+    color: gold;
+    top:420px;
+    width: 320px;
+    padding: 0;
+
+}
+
+
+

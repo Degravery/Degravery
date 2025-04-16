@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("images/UMak-Campus-Drone-01-1500x630.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    overflow: hidden;
+    align-content: center;
+    justify-content: center;
+ }
+button:hover{
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow: 0 0 10px black inset;
+}
+a:hover{
+    box-shadow: 0 0 7px black inset;
+}
+input::placeholder{
+    transition: 0.35s ease;
+}
+input:focus{
+    outline: none;
+    background-color: lightcyan;
+    border-width: 3px;
+    border-color: gold;
+}
+input:focus::placeholder{
+    color:transparent;
+}
+input:hover{
+    border-width: 3px;
+    border-color: gold;
+}
+input:hover::placeholder{
+    background-color: lightcyan;
+}
+.container{
+    display: flex;
+    position: relative;
+    background-color:#0d2364;
+    border-radius: 15px;
+    border-color: #0d2364;
+    border-style: solid;
+    border-width: 4px;
+    box-shadow: 0 0 15px black;
+    width: 480px;
+    height: 500px;
+    top: 50%;
+    left: 695px;
+    text-align: center;
+}
+.gridcontain{
+    display:grid;
+    grid-template-columns: auto;
+    margin-left: 75px;
+    width: 350px;
+}
+.navbpos{
+    position: absolute;
+    top: 450px;
+    left: 50px;
+}
+.buttonpos{
+    position: absolute;
+    top: 375px;
+    left: 2.5px;
+}
+.ubox{
+    position: absolute;
+    width: 250px;
+    left: 120px;
+    top: 155px;
+}
+.nbox{
+    position: absolute;
+    width: 250px;
+    left: 120px;
+    top: 200px;
+}
+.pbox{
+    position: absolute;
+    width: 250px;
+    left: 120px;
+    top: 265px;
+}
+.errorpos{
+    display: flex;
+    color: gold;
+    position: absolute;
+    left: 180px;
+    top:410px;
+    width: 150px;
+}
+.seperater1{
+    position: absolute;
+    background-color: gold;
+    width: 470px;
+    height: 2px;
+    top: 125px;
+    left: 5px;
+    opacity: 50%;
+}
+.radiopos1{
+    display: inline-block;
+    position: absolute;
+    height: 25px;
+    width: 100px;
+    bottom: 60px;
+    left: 45px;
+}
+.radiopos2{
+    display: inline-block;
+    position: absolute;
+    height: 25px;
+    width: 100px;
+    bottom: 60px;
+    right:195px;
+}
+.male{
+    display:flex;
+    position:absolute;
+    left:110px;
+    bottom:58px;
+}
+.female{
+    display:flex;
+    position:absolute;
+    right:85px;
+    bottom:58px;
+}
