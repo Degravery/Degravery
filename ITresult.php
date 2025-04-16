@@ -16,7 +16,7 @@
 <div class="topbar">
     <div class="webname">
         <nav>
-        <a href="index.php"><img src="images/logo.png"></a>
+        <a href="index.html"><img src="images/logo.png"></a>
         <h2>DEGRAVERY</h2>
     </nav>
     </div>
