@@ -23,7 +23,7 @@
         <ul>
         <li><a href="index.php"> HOME ‎<i class="fas fa-home"></i></a></li>
         </ul>
-        <ul><li><a href="about.php"> ABOUT ‎<i class="fas fa-info-circle"></i></a></li></ul>
+        <ul><li><a href="about.html"> ABOUT ‎<i class="fas fa-info-circle"></i></a></li></ul>
         <div class="dropdown">
             <button class="dropdown_btn">Courses⮟</button>
             <div class="dropdown_content">
